@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: twitter-feed
-        image: wcr.io/derekoneil/twitter-feed:master-9a8fa77277c4a8c3c96d96d4b804e83c26ac6cc0
+        image: ${DOCKER_REPO}/twitter-feed:master:lastest
         imagePullPolicy: Always
         ports:
         - name: twitter-feed
